@@ -18,6 +18,7 @@ int main() {
         printf("7. Arredondar para cima\n");
         printf("8. Arredondar para baixo\n");
         printf("9. Hipotenusa\n");
+        printf("0. Sair\n");
         printf("Digite sua escolha: ");
         scanf("%d", &opcao);
 
@@ -79,6 +80,8 @@ int main() {
                 scanf("%lf", &y);
                 resultado = hypot(x, y);
                 printf("Resultado: Hipotenusa de um triangulo retangulo de lados %.2f e %.2f = %.2f\n", x, y, resultado);
+                break;
+            case 0:
                 break;
             default:
                 printf("Opcao invalida");
