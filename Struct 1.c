@@ -11,7 +11,7 @@ int main () {
 
         struct Livro livro[5];
 
-    for (int i = 0; i <= 5; i++){
+    for (int i = 1; i <= 5; i++){
 
         printf("Titulo: ");
         scanf ("%s", livro[i].titulo);
