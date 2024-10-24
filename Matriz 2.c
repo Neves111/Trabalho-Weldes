@@ -2,7 +2,7 @@
 
 int main(){
 
-int matriz[3][3];
+int matriz[3][3]; 
 
 int i;
 int j;
