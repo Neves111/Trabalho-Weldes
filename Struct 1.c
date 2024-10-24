@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 struct Livro {
     char titulo [50];
@@ -28,9 +27,9 @@ int main () {
         
     }
 
-        for (int i = 0; i <= 5; i++){
+        for (int i = 1; i <= 5; i++){
 
-        printf("Livro %d\n", i);
+        printf("\nLivro %d\n", i);
 
         printf("Titulo: %s\n", livro[i].titulo);
         printf("Autor: %s\n", livro[i].autor);
