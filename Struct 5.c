@@ -17,7 +17,7 @@ int main (){
     scanf("%d", &data.dia);
     printf("Mes: ");
     scanf("%d", &data.mes);
-    printf("Ano: ");
+    printf("Ano: "); 
     scanf("%d", &data.ano);
 
     if(data.ano % 4 == 0){
