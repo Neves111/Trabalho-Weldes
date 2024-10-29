@@ -21,8 +21,7 @@ for (i = 0; i < 3; i++){
 for (i = 0; i < 3; i++){
     for (j = 0; j < 3; j++){
         if (matriz[i][j] != tmatriz [i][j]){
-            printf("nao simetrica");
-            return 0;
+            return printf("nao simetrica");
         }
     }
 }
