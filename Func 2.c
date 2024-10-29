@@ -12,7 +12,7 @@ int main() {
     if (Par(n)) {
         printf("verdadeiro\n");
     } else {
-        printf("false\n");
+        printf("falso\n");
     }
 
     return 0;
