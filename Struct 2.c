@@ -9,15 +9,16 @@ struct Ponto {
 int main () {
 
     struct Ponto ponto1;
+    struct Ponto ponto2;
     
         printf("Digite o X1: ");
         scanf ("%f", &ponto1.x);
-        printf("Digite o Y1: ");
-        scanf ("%f", &ponto1.y);
-
-    struct Ponto ponto2;
         printf("Digite o X2: ");
         scanf ("%f", &ponto2.x);
+    
+        
+        printf("Digite o Y1: ");
+        scanf ("%f", &ponto1.y);
         printf("Digite o Y2: ");
         scanf ("%f", &ponto2.y);
 
