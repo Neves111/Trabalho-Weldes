@@ -11,8 +11,6 @@ int main (){
     struct Data data;
     int final[] = {31,28,31,30,31,30,31,31,30,31,30,31};
 
-    
-
     printf("Dia: ");
     scanf("%d", &data.dia);
     printf("Mes: ");
@@ -31,7 +29,6 @@ int main (){
      if (data.dia < 1 || data.dia > final[data.mes]) {
         return printf("Data invalida");
     }
-
 
     printf("%d/%d/%d", data.dia, data.mes, data.ano);
 
