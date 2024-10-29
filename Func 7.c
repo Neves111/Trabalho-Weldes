@@ -4,10 +4,10 @@ int dig (int num){
   
     int aux = 0;
 
-    while (num != 0) {      
-        num /= 10;   
-        aux++;
-    }
+    do {
+        ++aux;
+        num /= 10;
+    } while (num != 0);
     return aux;
 }
 
