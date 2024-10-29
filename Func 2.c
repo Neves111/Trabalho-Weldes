@@ -10,9 +10,9 @@ int main() {
     scanf("%d", &n);
 
     if (Par(n)) {
-        printf("par\n");
+        printf("verdadeiro\n");
     } else {
-        printf("impar\n");
+        printf("false\n");
     }
 
     return 0;
