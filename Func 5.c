@@ -4,7 +4,6 @@ float Celsius (float temp){
     return temp * 1.8 + 32;
 }
 
-
 float Fahrenheit (float temp){
     return (temp - 32) / 1.8;
 } 
@@ -28,7 +27,6 @@ int main (){
         printf ("%.2f", Fahrenheit(temp));
         break;
     }
-
 
     return 0;
 }
