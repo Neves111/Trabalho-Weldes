@@ -14,6 +14,5 @@ int main (){
 
     printf("%.2f", Media(a,b,c));
 
-
     return 0;
 }
