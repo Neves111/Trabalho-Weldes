@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int soma_matriz(int *matriz, int linhas, int colunas) {
+int soma_matriz(int *matriz, int tamanho1, int tamanho2) {
     int soma = 0;
-    for (int i = 0; i < linhas; i++) {
-        for (int j = 0; j < colunas; j++) {
-            soma += *(matriz + i * colunas + j);
+    for (int i = 0; i < tamanho1; i++) {
+        for (int j = 0; j < tamanho2; j++) {
+            soma += *(matriz + i * tamanho2 + j);
         }
     }
     return soma;
